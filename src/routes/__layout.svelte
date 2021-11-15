@@ -1,16 +1,13 @@
 <script>
-	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 </script>
-
-<Header />
 
 <main>
 	<slot />
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Visit <a href="http://chingu.io">Chingu</a> to see how you can transform what you've learned into experience! The experience employer's want.</p>
 </footer>
 
 <style>
