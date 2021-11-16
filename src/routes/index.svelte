@@ -10,20 +10,16 @@
 	<title>Home</title>
 </svelte:head>
 
-<section>
 	<h1>
 		Welcome to my UI prototype
 	</h1>
 	<p>
 		This is where I'm testing some ideas for a new Chingu.io website.
 	</p>
-</section>
 
-<section>
 	<h2>This is where the magic happens</h2>
 	<Highlight>
 	</Highlight>
-</section>
 
 <style>
 	section {

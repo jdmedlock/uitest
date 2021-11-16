@@ -1,4 +1,5 @@
 <script>
+  import "../styles/tailwind-output.css";
 	import '../app.css';
 </script>
 
