@@ -7,7 +7,7 @@
 	<slot />
 </main>
 
-<footer>
+<footer class="relative m-48">
 	<p>Visit <a href="http://chingu.io">Chingu</a> to see how you can transform what you've learned into experience! The experience employer's want.</p>
 </footer>
 

@@ -1,6 +1,8 @@
 <script>
-	import HighlightCard from '../components/HighlightCard.svelte';
+	import HighlightCard from '../components/HighlightCard.svelte'
+	import Quote from '../components/Quote.svelte'
 </script>
 
-<HighlightCard>
-</HighlightCard>
+<HighlightCard></HighlightCard>
+<Quote></Quote>
+
