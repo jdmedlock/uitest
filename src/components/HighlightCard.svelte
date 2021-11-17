@@ -15,7 +15,7 @@
       <!-- Row #2 -->
       <div class="flex w-full row-start-2 grid-cols-3 justify-evenly place-items-center">
         <div class="col-start-1 text-black text-3xl m-4 z-50"></div>
-        <img class="col-start-2 w-1/2 m-4 z-50" src="/src/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg" alt="Woman coding">
+        <img class="col-start-2 w-1/2 m-4 z-50 rounded-xl drop-shadow-2xl" src="/src/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg" alt="Woman coding">
         <div class="col-start-3 text-black text-3xl text-right m-4 z-50"></div>
       </div>
       <!-- Row #3 -->
