@@ -18,7 +18,21 @@
 	</p>
 
 	<h2 class="mb-12">This is where the magic happens</h2>
-	<Highlight rotate='right'></Highlight>
+	<Highlight rotate='left' 
+		tagLines={["Transform what you've learned", "...into Experience needed to get Jobs!!!"]}
+		text={{ 
+			line1: 'Level-up technical + soft skills',
+			line2: '',
+			line3: 'Learn with & from other Developers',
+			line4: '',		
+			line5: '',
+			line6: '',
+			line7: 'Build experience to get jobs!!!',
+			line8: '',
+		}} 
+		imageURL='/src/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg'
+		quote='"This is one awesome quote"...Alfred E. Newman'>
+	</Highlight>
 
 <style>
 	section {
