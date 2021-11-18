@@ -2,16 +2,26 @@
 	import CallToAction from '../components/CallToAction.svelte'
 	import Quote from '../components/Quote.svelte'
 
-  export let cardSettings = {
-    rotation: 2,
-  }
+  export let rotate = 'even'
+
+  let rotation
+  switch (rotate) {
+    case 'left':
+      rotation = 'transform -rotate-2'
+      break
+    case 'right':
+      rotation = 'transform rotate-2'
+      break
+    default:
+      rotation = ''
+      break
+  } 
 
 </script>
 
 <div class="flex-none w-2/3 h-full place-self-center">
-  <div class="transform rotate-{cardSettings.rotation} drop-shadow-2xl ">
+  <div class="{rotation} drop-shadow-2xl">
     <!-- Background card image -->
-    <!-- <img class="absolute rounded-xl z-0 scale-y-75" src="/src/assets/green-card.png" alt="green card"> -->
     <div class="bg-green-200 rounded-xl">
 
       <!-- Content overlaying the card -->
@@ -35,12 +45,12 @@
           <div class="col-start-3 text-black text-3xl text-right m-4"></div>
         </div>
       </div>
-
+    
       <div class="bg-green-200 rounded-xl pt-0 pb-8 pl-8 ">
         <Quote></Quote>
         <CallToAction></CallToAction>
       </div>
-
+    
     </div>
   </div>
 

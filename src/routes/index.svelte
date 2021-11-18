@@ -18,7 +18,7 @@
 	</p>
 
 	<h2 class="mb-12">This is where the magic happens</h2>
-	<Highlight></Highlight>
+	<Highlight rotate='right'></Highlight>
 
 <style>
 	section {

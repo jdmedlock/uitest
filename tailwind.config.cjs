@@ -26,6 +26,6 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  mode: 'jit', // ⚠ Make sure to have this
+  // mode: 'jit', // ⚠ Make sure to have this
   purge: ["./src/**/*.svelte"],
 }
