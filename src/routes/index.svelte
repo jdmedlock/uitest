@@ -31,7 +31,7 @@
 			line7: 'Build experience to get jobs!!!',
 			line8: '',
 		}} 
-		imageURL='../src/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg'
+		imageURL='./src/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg'
 		quote='"This is one awesome quote"...Alfred E. Newman'>
 	</Highlight>
 </section>
