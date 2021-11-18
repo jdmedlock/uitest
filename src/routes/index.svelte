@@ -17,9 +17,8 @@
 		This is where I'm testing some ideas for a new Chingu.io website.
 	</p>
 
-	<h2>This is where the magic happens</h2>
-	<Highlight>
-	</Highlight>
+	<h2 class="mb-12">This is where the magic happens</h2>
+	<Highlight></Highlight>
 
 <style>
 	section {
