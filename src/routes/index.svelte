@@ -19,20 +19,30 @@
 	</p>
 
 	<h2 class="mb-12">This is where the magic happens</h2>
-	<Highlight rotate='left' 
-		tagLines={["Transform what you've learned", "...into Experience needed to get Jobs!!!"]}
-		text={{ 
-			line1: 'Level-up technical + soft skills',
-			line2: '',
-			line3: 'Learn with & from other Developers',
-			line4: '',		
-			line5: '',
-			line6: '',
-			line7: 'Build experience to get jobs!!!',
-			line8: '',
-		}} 
-		imageURL='/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg'
-		quote='"This is one awesome quote"...Alfred E. Newman'>
+	<Highlight 
+		config={{
+			rotate: 'left',
+			cardConfig: {
+				tagLines: {
+					line1: "Transform what you learn...",
+					line2: "into Experience to get Jobs!!!",
+				},
+				textLines: { 
+					line1: 'Level-up technical + soft skills',
+					line2: '',
+					line3: 'Learn with & from other Developers',
+					line4: '',		
+					line5: '',
+					line6: '',
+					line7: 'Build experience to get jobs!!!',
+					line8: '',
+				}, 
+				imageURL: '/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg',
+			},
+			quoteConfig: {
+				quote: '"This is one awesome quote"...Alfred E. Newman'
+			},
+		}}>
 	</Highlight>
 </section>
 
