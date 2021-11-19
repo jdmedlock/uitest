@@ -23,12 +23,12 @@
 
 </script>
 
-<div class="flex-none w-2/3 h-full place-self-center">
+<div class="flex-none w-full lg:w-2/3 h-full place-self-center">
   <div class="{rotation} drop-shadow-2xl">
     <!-- Tag lines -->
     <div>
-      <div class="text-black font-bold text-3xl text-left">{tagLines[0]}</div>
-      <div class="text-green-700 font-bold text-3xl text-right">{tagLines[1]}</div>
+      <div class="text-black font-bold text-3xl text-center md:text-left">{tagLines[0]}</div>
+      <div class="text-green-700 font-bold text-3xl text-center md:text-right">{tagLines[1]}</div>
     </div>
 
     <!-- Background card image -->
