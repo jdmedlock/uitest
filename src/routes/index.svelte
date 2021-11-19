@@ -7,18 +7,22 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Chingu UITest</title>
 </svelte:head>
 
 <section class="flex-1 flex-col justify-center text-center">
-	<h1 class="text-bold text-2xl">
+	<h1 class="text-bold text-3xl">
 		Welcome to my UI prototype
 	</h1>
+	
 	<p class="mt-8 text-2xl">
 		This is where I'm testing some ideas for a new Chingu.io website.
 	</p>
 
-	<p class="mb-12 text-2xl">This is where the magic happens</p>
+	<p class="mb-12 text-2xl">
+		It's where the magic happens
+	</p>
+
 	<div class="flex justify-center">
 		<Highlight
 			config={{
