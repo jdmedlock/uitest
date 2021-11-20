@@ -53,15 +53,13 @@
 				bgColor: 'bg-red-200',
 				cardConfig: {
 					tagLines: {
-						line1: "Transform what you learn...",
-						line2: "into Experience to get Jobs!!!",
+						line1: "We help Developers like you",
+						line2: "...get jobs at leading companies!!!",
 					},
 					textLines: { 
-						line1: 'Level-up technical + soft skills',
-						line3: 'Learn with & from other Developers',
-						line7: 'Build experience to get jobs!!!',
+						line7: '',
 					}, 
-					imageURL: '/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg',
+					imageURL: '/assets/cytonn-photography-n95VMLxqM2I-unsplash.jpeg',
 				},
 				quoteConfig: {
 					bgColor: 'bg-red-500',
@@ -69,5 +67,55 @@
 				},
 			}}>
 		</Highlight>
+
+		<Highlight
+		config={{
+			rotate: 'left',
+			bgColor: 'bg-blue-200',
+			cardConfig: {
+				tagLines: {
+					line1: "Join Developers like yourself",
+					line2: "...who share your goals & determination!!!",
+				},
+				textLines: { 
+					line2: 'Participate in a friendly & supportive community',
+					line6: 'Gain experience in a remote team',
+					line8: 'Level up with skills like Collaboration, Agile, & Pair Programming',
+				}, 
+				imageURL: '/assets/jason-goodman-Oalh2MojUuk-unsplash.jpeg',
+			},
+			quoteConfig: {
+				bgColor: 'bg-blue-500',
+				quote: '"This is one awesome quote"...Alfred E. Newman'
+			},
+		}}>
+	</Highlight>
+
+	<Highlight
+		config={{
+			rotate: 'right',
+			bgColor: 'bg-yellow-200',
+			cardConfig: {
+				tagLines: {
+					line1: "Build Development experience",
+					line2: "...employers want and need!!!",
+				},
+				textLines: { 
+					line1: 'Sign up & join our Developer Community',
+					line3: 'Create a Solo Project & get valuable feedback',
+					line4: 'Join a 6-week remote team project',
+					line5: 'Build experience for the workplace',
+					line6: 'Complete your team project to earn a certificate',
+					line8: 'Repeat to level up even more!',
+				}, 
+				imageURL: '/assets/annie-spratt-QckxruozjRg-unsplash.jpeg',
+			},
+			quoteConfig: {
+				bgColor: 'bg-yellow-500',
+				quote: '"This is one awesome quote"...Alfred E. Newman'
+			},
+		}}>
+	</Highlight>
+
 	</div>
 </section>
