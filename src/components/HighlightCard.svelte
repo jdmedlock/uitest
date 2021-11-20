@@ -29,9 +29,9 @@
 <div class="flex-none w-full lg:w-2/3 h-full place-self-center m-16">
   <div class="{rotation} drop-shadow-2xl">
     <!-- Tag lines -->
-    <div>
+    <div class="mb-4">
       <div class="text-black font-bold text-2xl md:text-3xl text-left">{tagLines.line1}</div>
-      <div class="text-green-700 font-bold text-2xl md:text-3xl text-right">{tagLines.line2}</div>
+      <div class="text-green-700 font-bold text-2xl md:text-3xl text-right mt-2">{tagLines.line2}</div>
     </div>
 
     <!-- Background card image -->
@@ -40,7 +40,7 @@
       <!-- Content overlaying the card -->
       <div class="flex-none grid-rows-3 gap-4">
         <!-- Row #1-->
-        <div class="flex w-full row-start-1 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl">
+        <div class="flex w-full row-start-1 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl pt-2">
           <div class="col-start-1 m-4">{textLines.line1 ? textLines.line1 : ''}</div>
           <div class="col-start-2 m-4">{textLines.line2 ? textLines.line2 : ''}</div>
           <div class="col-start-3 m-4">{textLines.line3 ? textLines.line3 : ''}</div>
