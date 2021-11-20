@@ -23,7 +23,7 @@
 		It's where the magic happens
 	</p>
 
-	<div class="flex justify-center">
+	<div class="flex flex-col justify-center">
 		<Highlight
 			config={{
 				rotate: 'left',
@@ -35,18 +35,36 @@
 					},
 					textLines: { 
 						line1: 'Level-up technical + soft skills',
-						line2: '',
 						line3: 'Learn with & from other Developers',
-						line4: '',		
-						line5: '',
-						line6: '',
 						line7: 'Build experience to get jobs!!!',
-						line8: '',
 					}, 
 					imageURL: '/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg',
 				},
 				quoteConfig: {
 					bgColor: 'bg-green-500',
+					quote: '"This is one awesome quote"...Alfred E. Newman'
+				},
+			}}>
+		</Highlight>
+
+		<Highlight
+			config={{
+				rotate: 'right',
+				bgColor: 'bg-red-200',
+				cardConfig: {
+					tagLines: {
+						line1: "Transform what you learn...",
+						line2: "into Experience to get Jobs!!!",
+					},
+					textLines: { 
+						line1: 'Level-up technical + soft skills',
+						line3: 'Learn with & from other Developers',
+						line7: 'Build experience to get jobs!!!',
+					}, 
+					imageURL: '/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg',
+				},
+				quoteConfig: {
+					bgColor: 'bg-red-500',
 					quote: '"This is one awesome quote"...Alfred E. Newman'
 				},
 			}}>
