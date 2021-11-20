@@ -27,6 +27,7 @@
 		<Highlight
 			config={{
 				rotate: 'left',
+				bgColor: 'bg-green-200',
 				cardConfig: {
 					tagLines: {
 						line1: "Transform what you learn...",
@@ -45,6 +46,7 @@
 					imageURL: '/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg',
 				},
 				quoteConfig: {
+					bgColor: 'bg-green-500',
 					quote: '"This is one awesome quote"...Alfred E. Newman'
 				},
 			}}>

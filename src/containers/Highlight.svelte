@@ -3,7 +3,7 @@
 
 	export let config
 
-	let { rotate, cardConfig, quoteConfig } = config
+	let { rotate, bgColor, cardConfig, quoteConfig } = config
 </script>
 
-<HighlightCard {rotate} {cardConfig} {quoteConfig}></HighlightCard>
+<HighlightCard {rotate} {bgColor} {cardConfig} {quoteConfig}></HighlightCard>

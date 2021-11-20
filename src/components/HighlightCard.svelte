@@ -3,6 +3,7 @@
 	import Quote from '../components/Quote.svelte'
 
   export let rotate = 'even'
+  export let bgColor = 'bg-green-200'
   export let cardConfig = {}
   export let quoteConfig = {}
 
@@ -34,7 +35,7 @@
     </div>
 
     <!-- Background card image -->
-    <div class="bg-green-200 rounded-xl">
+    <div class="{bgColor} rounded-xl">
 
       <!-- Content overlaying the card -->
       <div class="flex-none grid-rows-3 gap-4">
@@ -58,7 +59,7 @@
         </div>
       </div>
     
-      <div class="bg-green-200 rounded-xl pt-0 pb-8">
+      <div class="{bgColor} rounded-xl pt-0 pb-8">
         <Quote {quoteConfig}></Quote>
         <CallToAction></CallToAction>
       </div>
