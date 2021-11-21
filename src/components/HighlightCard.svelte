@@ -38,21 +38,21 @@
     <div class="{bgColor} rounded-xl">
 
       <!-- Content overlaying the card -->
-      <div class="flex-none grid-rows-3 gap-4">
+      <div class="flex-none grid-rows-3">
         <!-- Row #1-->
-        <div class="flex w-full row-start-1 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl pt-2">
+        <div class="flex w-full row-start-1 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl pt-4">
           <ContentCell style="col-start-1 m-4" contentCell={content.cell1}/>
           <ContentCell style="col-start-2 m-4" contentCell={content.cell2}/>
           <ContentCell style="col-start-3 m-4" contentCell={content.cell3}/>
         </div>
         <!-- Row #2 -->
-        <div class="flex w-full row-start-2 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl">
+        <div class="flex w-full row-start-2 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl pt-4">
           <ContentCell style="col-start-1 m-4" contentCell={content.cell4}/>
           <ContentCell style="col-start-2 m-4" contentCell={content.cell5}/>
           <ContentCell style="col-start-3 m-4" contentCell={content.cell6}/>
         </div>
         <!-- Row #3 -->
-        <div class="flex w-full row-start-2 grid-cols-3 justify-evenly place-items-center text-center text-black  text-2xl md:text-3xl">
+        <div class="flex w-full row-start-3 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl pt-4">
           <ContentCell style="col-start-1 m-4" contentCell={content.cell7}/>
           <ContentCell style="col-start-2 m-4" contentCell={content.cell8}/>
           <ContentCell style="col-start-3 m-4" contentCell={content.cell9}/>
