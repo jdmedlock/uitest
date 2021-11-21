@@ -30,15 +30,15 @@
 				bgColor: 'bg-green-200',
 				cardConfig: {
 					tagLines: {
-						line1: "Transform what you learn...",
-						line2: "into Experience to get Jobs!!!",
+						line1: 'Transform what you learn...',
+						line2: 'into Experience to get Jobs!!!',
 					},
-					textLines: { 
-						line1: 'Level-up technical + soft skills',
-						line3: 'Learn with & from other Developers',
-						line7: 'Build experience to get jobs!!!',
+					content: { 
+						cell1: {type: 'text', value: 'Level-up technical + soft skills'},
+						cell3: {type: 'text', value: 'Learn with & from other Developers'},
+						cell5: {type: 'img', value: '/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg'},
+						cell8: {type: 'text', value: 'Build experience to get jobs!!!'},
 					}, 
-					imageURL: '/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg',
 				},
 				quoteConfig: {
 					bgColor: 'bg-green-500',
@@ -56,10 +56,10 @@
 						line1: "We help Developers like you",
 						line2: "...get jobs at leading companies!!!",
 					},
-					textLines: { 
-						line7: '',
+					content: { 
+						cell5: {type: 'img', value: '/assets/cytonn-photography-n95VMLxqM2I-unsplash.jpeg'},
+						cell7: {type: 'text', value: ''},
 					}, 
-					imageURL: '/assets/cytonn-photography-n95VMLxqM2I-unsplash.jpeg',
 				},
 				quoteConfig: {
 					bgColor: 'bg-red-500',
@@ -77,12 +77,12 @@
 					line1: "Join Developers like yourself",
 					line2: "...who share your goals & determination!!!",
 				},
-				textLines: { 
-					line2: 'Participate in a friendly & supportive community',
-					line6: 'Gain experience in a remote team',
-					line8: 'Level up with skills like Collaboration, Agile, & Pair Programming',
+				content: { 
+					cell2: {type: 'text', value: 'Participate in a friendly & supportive community'},
+					cell5: {type: 'img', value: '/assets/jason-goodman-Oalh2MojUuk-unsplash.jpeg'},
+					cell7: {type: 'text', value: 'Gain experience in a remote team'},
+					cell9: {type: 'text', value: 'Level up with skills like Collaboration, Agile, & Pair Programming'},
 				}, 
-				imageURL: '/assets/jason-goodman-Oalh2MojUuk-unsplash.jpeg',
 			},
 			quoteConfig: {
 				bgColor: 'bg-blue-500',
@@ -100,15 +100,15 @@
 					line1: "Build Development experience",
 					line2: "...employers want and need!!!",
 				},
-				textLines: { 
-					line1: 'Sign up & join our Developer Community',
-					line3: 'Create a Solo Project & get valuable feedback',
-					line4: 'Join a 6-week remote team project',
-					line5: 'Build experience for the workplace',
-					line6: 'Complete your team project to earn a certificate',
-					line8: 'Repeat to level up even more!',
+				content: { 
+					cell1: {type: 'text', value: 'Sign up & join our Developer Community'},
+					cell3: {type: 'text', value: 'Create a Solo Project & get valuable feedback'},
+					cell4: {type: 'text', value: 'Join a 6-week remote team project'},
+					cell5: {type: 'img', value: '/assets/annie-spratt-QckxruozjRg-unsplash.jpeg'},
+					cell6: {type: 'text', value: 'Build experience for the workplace'},
+					cell7: {type: 'text', value: 'Complete your team project to earn a certificate'},
+					cell9: {type: 'text', value: 'Repeat to level up even more!'},
 				}, 
-				imageURL: '/assets/annie-spratt-QckxruozjRg-unsplash.jpeg',
 			},
 			quoteConfig: {
 				bgColor: 'bg-yellow-500',
