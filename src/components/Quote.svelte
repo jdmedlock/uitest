@@ -4,7 +4,7 @@
 
 <div class=" w-screen place-self-center m-2 lg:m-4 -ml-4 lg:-ml-20">
   <div class="flex content-center">
-    <div class="{quoteConfig.bgColor} text-white text-2xl md:text-4xl rounded-tl-xl rounded-br-xl border-solid border-2">
+    <div class="{quoteConfig.bgColor} text-white text-2xl md:text-4xl rounded-tl-xl rounded-br-xl border-solid border-4">
       <div class="m-4">{quoteConfig.quote}</div>
     </div>
   </div>
