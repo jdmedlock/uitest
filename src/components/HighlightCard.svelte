@@ -35,7 +35,7 @@
     </div>
 
     <!-- Background card image -->
-    <div class="{bgColor} rounded-xl">
+    <div class="{bgColor} rounded-tl-xl rounded-br-xl">
 
       <!-- Content overlaying the card -->
       <div class="flex-none grid-rows-3">

@@ -721,6 +721,22 @@ video {
 .rounded-xl {
 	border-radius: 1.0rem;
 }
+.rounded-t-lg {
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+}
+.rounded-br-lg {
+	border-bottom-right-radius: 0.5rem;
+}
+.rounded-tl-lg {
+	border-top-left-radius: 0.5rem;
+}
+.rounded-tl-xl {
+	border-top-left-radius: 1.0rem;
+}
+.rounded-br-xl {
+	border-bottom-right-radius: 1.0rem;
+}
 .border-2 {
 	border-width: 2px;
 }
