@@ -36,7 +36,7 @@
 					content: { 
 						cell1: {type: 'text', value: 'Level-up technical + soft skills'},
 						cell3: {type: 'text', value: 'Learn with & from other Developers'},
-						cell5: {type: 'img', value: '/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg'},
+						cell5: {type: 'img', value: '/assets/kelly-sikkema-A3XL3jDki70-unsplash.jpeg', shadow: 'drop-shadow-2xl'},
 						cell8: {type: 'text', value: 'Build experience to get jobs!!!'},
 					}, 
 				},
@@ -57,8 +57,13 @@
 						line2: "...get jobs at leading companies!!!",
 					},
 					content: { 
-						cell5: {type: 'img', value: '/assets/cytonn-photography-n95VMLxqM2I-unsplash.jpeg'},
-						cell7: {type: 'text', value: ''},
+						cell1: {type: 'img', value: '/assets/amazon-dark.svg', width: 'w-1/4'},
+						cell3: {type: 'img', value: '/assets/f_logo_RGB-Blue_250.png', width: 'w-1/5'},
+						cell4: {type: 'img', value: '/assets/intel-logo.png', width: 'w-1/4'},
+						cell5: {type: 'img', value: '/assets/cytonn-photography-n95VMLxqM2I-unsplash.jpeg', shadow: 'drop-shadow-2xl'},
+						cell6: {type: 'img', value: '/assets/LI-In-Bug.png', width: 'w-1/5'},
+						cell7: {type: 'img', value: '/assets/microsoft-logo.svg', width: 'w-1/4'},
+						cell9: {type: 'img', value: '/assets/redhat-logo.png', width: 'w-2/5'},
 					}, 
 				},
 				quoteConfig: {
@@ -79,7 +84,7 @@
 				},
 				content: { 
 					cell2: {type: 'text', value: 'Participate in a friendly & supportive community'},
-					cell5: {type: 'img', value: '/assets/jason-goodman-Oalh2MojUuk-unsplash.jpeg'},
+					cell5: {type: 'img', value: '/assets/jason-goodman-Oalh2MojUuk-unsplash.jpeg', shadow: 'drop-shadow-2xl'},
 					cell7: {type: 'text', value: 'Gain experience in a remote team'},
 					cell9: {type: 'text', value: 'Level up with skills like Collaboration, Agile, & Pair Programming'},
 				}, 
@@ -104,7 +109,7 @@
 					cell1: {type: 'text', value: 'Sign up & join our Developer Community'},
 					cell3: {type: 'text', value: 'Create a Solo Project & get feedback'},
 					cell4: {type: 'text', value: 'Join a remote team project'},
-					cell5: {type: 'img', value: '/assets/annie-spratt-QckxruozjRg-unsplash.jpeg'},
+					cell5: {type: 'img', value: '/assets/annie-spratt-QckxruozjRg-unsplash.jpeg', shadow: 'drop-shadow-2xl'},
 					cell6: {type: 'text', value: 'Build experience for the workplace'},
 					cell7: {type: 'text', value: 'Earn a certificate for your team project'},
 					cell9: {type: 'text', value: 'Repeat to level up even more!'},
