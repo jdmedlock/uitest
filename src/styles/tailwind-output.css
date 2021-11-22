@@ -721,16 +721,6 @@ video {
 .rounded-xl {
 	border-radius: 1.0rem;
 }
-.rounded-t-lg {
-	border-top-left-radius: 0.5rem;
-	border-top-right-radius: 0.5rem;
-}
-.rounded-br-lg {
-	border-bottom-right-radius: 0.5rem;
-}
-.rounded-tl-lg {
-	border-top-left-radius: 0.5rem;
-}
 .rounded-tl-xl {
 	border-top-left-radius: 1.0rem;
 }
@@ -745,10 +735,6 @@ video {
 }
 .border-solid {
 	border-style: solid;
-}
-.border-gray-400 {
-	--tw-border-opacity: 1;
-	border-color: rgba(156, 163, 175, var(--tw-border-opacity));
 }
 .bg-green-700 {
 	--tw-bg-opacity: 1;
