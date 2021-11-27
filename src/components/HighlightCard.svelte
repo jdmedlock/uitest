@@ -14,10 +14,10 @@
   let rotation
   switch (rotate) {
     case 'left':
-      rotation = 'transform -rotate-2'
+      rotation = 'transform-none md:transform -rotate-2'
       break
     case 'right':
-      rotation = 'transform rotate-2'
+      rotation = 'transform-none md:transform rotate-2'
       break
     default:
       rotation = ''
@@ -26,7 +26,7 @@
 
 </script>
 
-<div class="flex-none w-full lg:w-2/3 h-full place-self-center m-16">
+<div class="flex-none w-full lg:w-2/3 h-full place-self-center m-4 lg:mt-16 pl-2 pr-2">
   <div class="{rotation} drop-shadow-2xl">
     <!-- Tag lines -->
     <div class="mb-4">
@@ -40,19 +40,19 @@
       <!-- Content overlaying the card -->
       <div class="flex-none grid-rows-3">
         <!-- Row #1-->
-        <div class="flex w-full row-start-1 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl pt-4">
+        <div class="flex w-full row-start-1 grid-cols-3 justify-evenly place-items-center text-center text-black text-xl md:text-3xl pt-4">
           <ContentCell style="col-start-1 m-4" contentCell={content.cell1}/>
           <ContentCell style="col-start-2 m-4" contentCell={content.cell2}/>
           <ContentCell style="col-start-3 m-4" contentCell={content.cell3}/>
         </div>
         <!-- Row #2 -->
-        <div class="flex w-full row-start-2 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl pt-4">
+        <div class="flex w-full row-start-2 grid-cols-3 justify-evenly place-items-center text-center text-black text-xl md:text-3xl pt-4">
           <ContentCell style="col-start-1 m-4" contentCell={content.cell4}/>
-          <ContentCell style="col-start-2 m-4" contentCell={content.cell5}/>
+          <ContentCell style="col-start-2 m-0 ml-2 mr-2" contentCell={content.cell5}/>
           <ContentCell style="col-start-3 m-4" contentCell={content.cell6}/>
         </div>
         <!-- Row #3 -->
-        <div class="flex w-full row-start-3 grid-cols-3 justify-evenly place-items-center text-center text-black text-2xl md:text-3xl pt-4">
+        <div class="flex w-full row-start-3 grid-cols-3 justify-evenly place-items-center text-center text-black text-xl md:text-3xl pt-4">
           <ContentCell style="col-start-1 m-4" contentCell={content.cell7}/>
           <ContentCell style="col-start-2 m-4" contentCell={content.cell8}/>
           <ContentCell style="col-start-3 m-4" contentCell={content.cell9}/>
