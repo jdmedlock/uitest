@@ -60,7 +60,7 @@
       </div>
     
       <div class="{bgColor} rounded-xl pt-0 pb-8">
-        <Quote {quoteConfig}></Quote>
+        <Quote {rotate} {quoteConfig}></Quote>
         <CallToAction></CallToAction>
       </div>
     
