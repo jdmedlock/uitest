@@ -1,14 +1,9 @@
 <script>
 	import HighlightCard from '../components/HighlightCard.svelte'
 
-	export let rotate
-	export let tagLines
-	export let text
-	export let imageURL
-	export let quote
+	export let config
 
+	let { rotate, bgColor, cardConfig, quoteConfig } = config
 </script>
 
-<HighlightCard {rotate} {tagLines} {text} {imageURL} {quote}></HighlightCard>
-
-
+<HighlightCard {rotate} {bgColor} {cardConfig} {quoteConfig}></HighlightCard>

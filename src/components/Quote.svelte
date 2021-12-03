@@ -1,11 +1,14 @@
 <script>
-  export let quote = ''
+  export let rotate
+  export let quoteConfig
+
+  const marginAmt = rotate === 'left' ? '-mr-12 lg:-mr-20' : '-ml-6 lg:-ml-20'
 </script>
 
-<div class="w-max place-self-center w-full m-4 -ml-20">
-  <div class="flex content-center">
-    <div class="bg-green-500 text-white text-4xl border-solid border-2 border-gray-400">
-      <div class="m-4">{quote}</div>
+<div class="w-11/12">
+  <div class="m-4 {marginAmt}">
+    <div class="{quoteConfig.bgColor} text-white text-2xl md:text-4xl rounded-tl-xl rounded-br-xl border-solid border-4">
+      <div class="m-4">{quoteConfig.quote}</div>
     </div>
   </div>
 </div>

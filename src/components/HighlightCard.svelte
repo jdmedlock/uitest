@@ -1,20 +1,23 @@
 <script>
 	import CallToAction from '../components/CallToAction.svelte'
+  import ContentCell from '../components/ContentCell.svelte'
 	import Quote from '../components/Quote.svelte'
 
   export let rotate = 'even'
-  export let tagLines = []
-  export let text = {}
-  export let imageURL = ''
-  export let quote = ''
+  export let bgColor = 'bg-green-200'
+  export let cardConfig = {}
+  export let quoteConfig = {}
+
+  const tagLines = cardConfig.tagLines
+  const content = cardConfig.content
 
   let rotation
   switch (rotate) {
     case 'left':
-      rotation = 'transform -rotate-2'
+      rotation = 'transform-none md:transform -rotate-2'
       break
     case 'right':
-      rotation = 'transform rotate-2'
+      rotation = 'transform-none md:transform rotate-2'
       break
     default:
       rotation = ''
@@ -23,41 +26,41 @@
 
 </script>
 
-<div class="flex-none w-2/3 h-full place-self-center">
+<div class="flex-none w-full lg:w-2/3 h-full place-self-center m-4 lg:mt-16 pl-2 pr-2">
   <div class="{rotation} drop-shadow-2xl">
     <!-- Tag lines -->
-    <div>
-      <div class="text-black font-bold text-3xl text-left">{tagLines[0]}</div>
-      <div class="text-green-700 font-bold text-3xl text-right">{tagLines[1]}</div>
+    <div class="mb-4">
+      <div class="text-black font-bold text-2xl md:text-3xl text-left">{tagLines.line1}</div>
+      <div class="text-green-700 font-bold text-2xl md:text-3xl text-right mt-2">{tagLines.line2}</div>
     </div>
 
     <!-- Background card image -->
-    <div class="bg-green-200 rounded-xl">
+    <div class="{bgColor} rounded-tl-xl rounded-br-xl">
 
       <!-- Content overlaying the card -->
-      <div class="flex-none grid-rows-3 gap-4">
+      <div class="flex-none grid-rows-3">
         <!-- Row #1-->
-        <div class="flex w-full row-start-1 grid-cols-3 justify-evenly place-items-center text-center">
-          <div class="col-start-1 text-black text-3xl m-4">{text.line1}</div>
-          <div class="col-start-2 text-black text-3xl m-4">{text.line2}</div>
-          <div class="col-start-3 text-black text-3xl m-4">{text.line3}</div>
+        <div class="flex w-full row-start-1 grid-cols-3 justify-evenly place-items-center text-center text-black text-xl md:text-3xl pt-4">
+          <ContentCell style="col-start-1 m-4" contentCell={content.cell1}/>
+          <ContentCell style="col-start-2 m-4" contentCell={content.cell2}/>
+          <ContentCell style="col-start-3 m-4" contentCell={content.cell3}/>
         </div>
         <!-- Row #2 -->
-        <div class="flex w-full row-start-2 grid-cols-3 justify-evenly place-items-center text-center">
-          <div class="col-start-1 text-black text-3xl m-4">{text.line4}</div>
-          <img class="col-start-2 w-1/2 m-4 z-50 rounded-xl shadow-2xl" src="{imageURL}" alt="Woman coding">
-          <div class="col-start-3 text-black text-3xl m-4">{text.line5}</div>
+        <div class="flex w-full row-start-2 grid-cols-3 justify-evenly place-items-center text-center text-black text-xl md:text-3xl pt-4">
+          <ContentCell style="col-start-1 m-4" contentCell={content.cell4}/>
+          <ContentCell style="col-start-2 m-0 ml-2 mr-2" contentCell={content.cell5}/>
+          <ContentCell style="col-start-3 m-4" contentCell={content.cell6}/>
         </div>
         <!-- Row #3 -->
-        <div class="flex w-full row-start-2 grid-cols-3 justify-evenly place-items-center text-center">
-          <div class="col-start-1 text-black text-3xl m-4">{text.line6}</div>
-          <div class="col-start-2 text-black text-3xl m-4">{text.line7}</div>
-          <div class="col-start-3 text-black text-3xl m-4">{text.line8}</div>
+        <div class="flex w-full row-start-3 grid-cols-3 justify-evenly place-items-center text-center text-black text-xl md:text-3xl pt-4">
+          <ContentCell style="col-start-1 m-4" contentCell={content.cell7}/>
+          <ContentCell style="col-start-2 m-4" contentCell={content.cell8}/>
+          <ContentCell style="col-start-3 m-4" contentCell={content.cell9}/>
         </div>
       </div>
     
-      <div class="bg-green-200 rounded-xl pt-0 pb-8 pl-8 ">
-        <Quote {quote}></Quote>
+      <div class="{bgColor} rounded-xl pt-0 pb-8">
+        <Quote {rotate} {quoteConfig}></Quote>
         <CallToAction></CallToAction>
       </div>
     
