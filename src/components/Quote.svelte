@@ -2,8 +2,7 @@
   export let rotate
   export let quoteConfig
 
-  //const marginAmt = rotate === 'left' ? '-mr-4 lg:-mr-20' : '-ml-4 lg:-ml-20'
-  const marginAmt = '-ml-4 lg:-ml-20'
+  const marginAmt = rotate === 'left' ? '-mr-12 lg:-mr-20' : '-ml-6 lg:-ml-20'
 </script>
 
 <div class="w-11/12">
